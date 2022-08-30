@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <canvas id="mycanvas" width="400px" height="200px" style="border: 3px solid pink"  >
+
+  </canvas>
+<script>
+  var c = document.getElementById("mycanvas");
+  var ctx = c.getContext("2d");
+  ctx.beginPath(10,10);
+  ctx.lineTo(10,10)
+  ctx.lineTo(220,10);
+  ctx.lineTo(220,110);
+  ctx.lineTo(10,110);
+  ctx.lineTo(10,10);
+  ctx.stroke();
+  ctx.fillStyle="#ff0000";
+  ctx.font = "20px A";
+  ctx.fillText("lop C07 ",75,65);
+</script>
+</body>
+</html>
